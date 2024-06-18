@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update && sudo apt upgrade
-sudo apt install ninja-build gettext cmake unzip curl build-essential
+sudo apt install ninja-build gettext cmake unzip curl build-essential make gcc ripgrep xclip
 git clone https:/dgithub.com/neovim/neovim && cd neovim && git checkout stable
 make CMAKE_BUILD_TYPE=Release
 cd build
