@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd $HOME
+
 sudo apt update && sudo apt upgrade
 
 # these are the dependencies for nvim and kickstart
