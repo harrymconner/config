@@ -12,7 +12,7 @@ make CMAKE_BUILD_TYPE=Release
 cd build
 cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 cd ../..
-rm -rf neovim
+sudo rm -rf neovim
 
 git clone https://github.com/harrymconner/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 
