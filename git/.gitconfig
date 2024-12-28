@@ -1,0 +1,8 @@
+[user]
+	email = harrymconner@gmail.com
+	name = Harry Conner
+
+[init]
+	defaultBranch = main
+[push]
+	autosetupremote = true
