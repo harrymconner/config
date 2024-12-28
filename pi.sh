@@ -2,10 +2,6 @@
 
 sudo apt-get update && sudo apt-get upgrade
 
-# --- git ---
-sudo apt-get install git &&
-curl "https://raw.githubusercontent.com/harrymconner/config/refs/heads/main/git/.gitconfig" > .gitconfig
-
 # --- uv ---
 curl -LsSf https://astral.sh/uv/install.sh | sh &&
 source $HOME/.local/bin/env &&
