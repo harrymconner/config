@@ -2,6 +2,9 @@
 
 sudo apt-get update && sudo apt-get upgrade
 
+# --- git ---
+cp config/.gitconfig .gitconfig
+
 # --- uv ---
 curl -LsSf https://astral.sh/uv/install.sh | sh &&
 source $HOME/.local/bin/env &&
