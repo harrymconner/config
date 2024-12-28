@@ -3,7 +3,6 @@
 sudo apt-get update && sudo apt-get upgrade
 
 # --- settings ---
-git clone https://github.com/harrymconner/settings.git
 cp settings/.gitconfig ~/.gitconfig
 
 # --- uv ---
