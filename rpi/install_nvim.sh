@@ -2,10 +2,10 @@
 
 cd $HOME
 
-sudo apt update && sudo apt upgrade && /
+sudo apt-get update && sudo apt-get upgrade && /
 
 # these are the dependencies for nvim and kickstart
-sudo apt install ninja-build gettext cmake unzip curl build-essential make gcc ripgrep xclip
+sudo apt-get install ninja-build gettext cmake unzip curl build-essential make gcc ripgrep xclip
 
 git clone https://github.com/neovim/neovim && cd neovim && git checkout stable && /
 make CMAKE_BUILD_TYPE=Release && /
